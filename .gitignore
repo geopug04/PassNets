@@ -1,0 +1,19 @@
+# created by virtualenv automatically
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+# Virtual envs
+.venv/
+venv/
+ENV/
+# IDE
+.idea/
+.vscode/
+# Mac
+.DS_Store
+# Data/cache
+output_passnets/
+*.png
+*.csv
