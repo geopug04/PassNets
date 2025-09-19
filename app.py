@@ -686,7 +686,7 @@ app.layout = dbc.Container([
                 dbc.CardBody([
                     dbc.Label("Min pass length (meters)"),
                     dcc.Slider(
-                        id="min-len", min=0, max=100, step=20, value=0,
+                        id="min-len", min=0, max=40, step=5, value=0,
                         tooltip={"placement": "bottom", "always_visible": False}
                     ),
                 ])
